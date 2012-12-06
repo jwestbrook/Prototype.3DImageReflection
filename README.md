@@ -19,9 +19,9 @@ How to use?
 First, you have to include [PrototypeJS](http://prototypejs.org/download), script.aculo.us builder and the reflection script in your html:
 
  ```html
-<script src="javascript/prototype.js" type="text/javascript"></script>
-<script src="javascript/scriptaculous.js?load=builder" type="text/javascript"></script>
-<script src="javascript/reflection.js" type="text/javascript"></script>
+<script src="prototype.js" type="text/javascript"></script>
+<script src="scriptaculous.js?load=builder" type="text/javascript"></script>
+<script src="reflection.js" type="text/javascript"></script>
 ```
  
 Then, create an holder div in which the image element is included:
