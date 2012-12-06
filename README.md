@@ -41,4 +41,4 @@ new Reflect3D('holder');
 
 and you get a rather nice looking reflection
 
-![Build Status](https://secure.travis-ci.org/twitter/bootstrap.png)
+![Sample Reflection Image](https://raw.github.com/jwestbrook/Prototype.3DImageReflection/master/sample.jpg)
