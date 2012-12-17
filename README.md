@@ -16,11 +16,10 @@ Preloading the images before reflection
 
 
 How to use?
-First, you have to include [PrototypeJS](http://prototypejs.org/download), script.aculo.us builder and the reflection script in your html:
+First, you have to include [PrototypeJS](http://prototypejs.org/download), and the reflection script in your html:
 
  ```html
 <script src="prototype.js" type="text/javascript"></script>
-<script src="scriptaculous.js?load=builder" type="text/javascript"></script>
 <script src="reflection.js" type="text/javascript"></script>
 ```
  
@@ -28,7 +27,7 @@ Then, create an holder div in which the image element is included:
 
  ```html
 <div id="holder">
-<img src="image.jpg" />
+    <img src="image.jpg" />
 </div>
 ```
  
@@ -42,3 +41,7 @@ new Reflect3D('holder');
 and you get a rather nice looking reflection
 
 ![Sample Reflection Image](https://raw.github.com/jwestbrook/Prototype.3DImageReflection/master/sample.jpg)
+
+Please se JSFiddle with real life example
+
+http://jsfiddle.net/jwestbrook/5fPRj/
