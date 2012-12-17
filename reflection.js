@@ -1,3 +1,13 @@
+/*
+
+Originally mirrored from http://ajaxorized.com/3d-image-reflection-with-javascript/
+
+now hosted at http://github.com/jwestbrook/Prototype.3DImageReflection
+
+
+*/
+
+
 /* Get the image source */
 Reflect3D = Class.create();
 
