@@ -9,9 +9,7 @@ now hosted at http://github.com/jwestbrook/Prototype.3DImageReflection
 
 
 /* Get the image source */
-Reflect3D = Class.create();
-
-Reflect3D.prototype = {
+Reflect3D = Class.create({
 	initialize : function(p_sTarget) {
 		/* Some config */
 		this.m_iMarginXFactor = 0.2;
@@ -51,4 +49,4 @@ Reflect3D.prototype = {
 			this.m_eTarget.insert(l_eLineDiv);
 		}    
 	}
-};
+});
